@@ -8,6 +8,15 @@
 </template>
 
 <style>
+button{
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 14px 22px 14px 22px;
+}
+
+h1{
+  font-size: 2.5rem;
+}
 body{
   margin:0px;
   padding: 0px
@@ -52,5 +61,8 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #b0b0b0;
+}
+p, a, h1, h2, h3, h4, h5{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 </style>

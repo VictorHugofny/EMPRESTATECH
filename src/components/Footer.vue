@@ -1,10 +1,11 @@
 <template>
 <div>
     <footer id = "footer">
-        <a href="http://"><img src="../assets/instagram.png" alt="" srcset=""></a> 
         <img src="../assets/gmail.png" alt="" srcset="">
         <img src="../assets/logotipo-do-github.png" alt="" srcset="">
+        <a href="http://"><img src="../assets/instagram.png" alt="" srcset=""></a> 
     </footer>
+    
 </div>
 </template>
 <style>
@@ -15,14 +16,14 @@
 
 footer {
     bottom: 0;
-    position: fixed;
     width: 100%;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     background-color: #34353E;
     display: flex;
-    padding: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
 }
 
