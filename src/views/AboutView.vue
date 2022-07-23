@@ -14,8 +14,10 @@
     <router-link to="/">
       <button>LOGIN</button>
     </router-link>
-
   </div>
+   <div class = 'principal'>
+      <img src="../assets/arte2.png" alt="">
+    </div>
 </template>
 
 <style scoped>
