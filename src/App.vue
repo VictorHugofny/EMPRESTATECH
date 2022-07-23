@@ -1,7 +1,7 @@
 <template>
   <nav>
     <router-link to="/"><img src="./assets/logo-emprestech.png" id="logo"></router-link>
-    <router-link to="/about"> <button id="login">Login</button></router-link>
+    <router-link to="/login"> <button id="login">Login</button></router-link>
   </nav>
   <router-view/>
 
