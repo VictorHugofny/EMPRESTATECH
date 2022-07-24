@@ -1,19 +1,18 @@
 <template>
 <div>
     <footer id = "footer">
-        <img src="../assets/gmail.png" alt="" srcset="">
-        <img src="../assets/logotipo-do-github.png" alt="" srcset="">
-        <a href="http://"><img src="../assets/instagram.png" alt="" srcset=""></a> 
+        <div class ='icons'><img src="../assets/gmail.png" alt="" srcset=""></div>
+        <div class ='icons'><img src="../assets/logotipo-do-github.png" alt="" srcset=""></div>
+        <div class ='icons'><a href="http://"><img src="../assets/instagram.png" alt="" srcset=""></a> </div>
     </footer>
     
 </div>
 </template>
-<style>
+<style scoped>
 #footer img{
     color: rgb(255, 255, 255);
     width: 2em;
 }
-
 footer {
     bottom: 0;
     width: 100%;
@@ -26,7 +25,6 @@ footer {
     padding-bottom: 20px;
     align-items: center;
 }
-
 </style>
 
 <script>

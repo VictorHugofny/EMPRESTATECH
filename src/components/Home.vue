@@ -118,6 +118,11 @@ span{
   border: #ffffff 1px solid;
 }
 
+button:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
 ul {
   list-style-type: none;
   padding: 0;

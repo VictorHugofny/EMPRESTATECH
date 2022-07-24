@@ -54,6 +54,11 @@ nav {
   padding: 10px 24px 10px 24px;
 }
 
+#login:hover{
+  background-color: rgb(49, 111, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+}
 nav a {
   font-weight: bold;
   color: #ffffff;
