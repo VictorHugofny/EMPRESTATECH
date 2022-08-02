@@ -3,6 +3,7 @@
     <router-link to="/"><img src="./assets/logo-emprestech.png" id="logo"></router-link>
     <router-link to="/login"> <button id="login">Login</button></router-link>
   </nav>
+    <Navpainel/>
   <router-view/>
 
 </template>
@@ -71,3 +72,17 @@ p, a, h1, h2, h3, h4, h5{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 </style>
+
+<script>
+// @ is an alias to /src
+import Navpainel from '@/components/Navpainel.vue'
+
+export default {
+  name: 'HomeView',
+  components: {
+    Navpainel
+    
+    
+  }
+}
+</script>

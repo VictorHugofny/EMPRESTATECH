@@ -1,9 +1,9 @@
 
 <template>
 <div id="nav" class = 'sobre'>
-  <router-link to="/painel"><p>Abrir um pedido</p></router-link> |
-  <router-link to="/painel"><p> Tickets</p></router-link> |
-  <router-link to="/painel"><p> Suporte</p></router-link>    
+  <router-link to="/form"><p>Abrir um pedido</p></router-link> |
+  <router-link to="/ticket"><p> Tickets</p></router-link> |
+  <router-link to="/suport"><p> Suporte</p></router-link>    
 </div>
 </template>
 
@@ -47,8 +47,8 @@
   color: #6764fa;
 }
 
-#nav a.router-link-exact-active {
-  color: #42a7b9;
+#nav p.router-link-exact-active {
+  color: #6764fa;
 }
 
 @media(max-width: 800px){
