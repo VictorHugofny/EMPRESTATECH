@@ -106,7 +106,15 @@ tr:hover{
     
 }
 
-@media only screen and (min-width: 1400px){
+@media only screen and (min-width: 1600px){
+    
+    .dashboard{
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+}
+
+@media only screen and (min-width: 1800px){
     
     .dashboard{
         margin-left: 18vw;
