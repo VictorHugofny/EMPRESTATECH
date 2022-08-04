@@ -10,6 +10,7 @@
         <table class="rTable">
             <thead>
                 <tr>
+                    <th class = 'logo'></th>
                     <th>Nome</th>
                     <th>Tipo</th>
                     <th class = 'data'>Data</th>
@@ -18,21 +19,24 @@
 
             <tbody>
                 <tr>
-                    <td><img src="../assets/eu.jpeg" alt=""> Victor Hugo</td>
-                    <td>DEVOLUÇÃO</td>
-                    <td class = 'data'>02/10/2022</td>
-                </tr>
-
-                <tr>
-                    <td> <img src="../assets/luva.jpg" alt="">Luva de pedreiro</td>
-                    <td>PRIMEIRO</td>
-                    <td class = 'data'>01/10/2022</td>
-                </tr>
-
-                <tr>
-                    <td><img src="../assets/casimiro.jpg" alt="">Casimiro Miguel</td>
+                    <td class = 'logo'><img src="../assets/eu.jpeg" alt=""></td>
+                    <td> Victor Hugo</td>
                     <td>TROCA</td>
-                    <td class = 'data'>02/10/2022</td>
+                    <td class = 'data'>02/10</td>
+                </tr>
+
+                <tr>
+                    <td class = 'logo'><img src="../assets/luva.jpg" alt=""></td>
+                    <td> Luva de pedreiro</td>
+                    <td>PRIMEIRO</td>
+                    <td class = 'data'>01/10</td>
+                </tr>
+
+                <tr>
+                    <td class = 'logo'><img src="../assets/casimiro.jpg" alt=""></td>
+                    <td>Casimiro Miguel</td>
+                    <td>TROCA</td>
+                    <td class = 'data'>02/10</td>
                 </tr>
             </tbody>
         </table>
@@ -41,10 +45,11 @@
 </template>
 
 <style scoped>
+
 img{
     border-radius: 50px;
-    width: 3rem;
-    height: 3rem;
+    width: 3.1rem;
+    height: 3.1rem;
     margin-right: 1rem;
 }
 *{margin:0; padding: 0; box-sizing: border-box;}
@@ -63,11 +68,10 @@ img{
 }
 .content{display:flex; margin: auto;}
 
-.rTable{width: 100%; text-align: center;}
+.rTable{width: 100%; text-align: left;}
     .rTable thead{font-weight: bold; color:rgb(210, 210, 210);}
     .rTable th , .rTable td{ padding: 4px 0; padding-bottom: 8px; padding-top: 8px; }
     .rTable td{
-        border-bottom: 2px solid black;
         margin-right: 4rem;
     }
     .rTable th{
@@ -82,8 +86,15 @@ img{
     img{
         display: none;
     }
+    .logo{
+        display:none;
+    }
 }
-
+tr:hover{
+    background: rgba(0, 0, 0, 0.137);
+    padding: 0%;
+    margin: 0%;
+}
 @media only screen and (min-width: 1200px){
     .content{width:100%;}
     .rTable tbody tr td:nth-child(1){width:10%;}
@@ -91,6 +102,16 @@ img{
     .rTable tbody tr td:nth-child(3){width:20%;}
     .rTable tbody tr td:nth-child(4){width:10%;}
     .rTable tbody tr td:nth-child(5){width:30%;}
+    
+    
+}
+
+@media only screen and (min-width: 1400px){
+    
+    .dashboard{
+        margin-left: 18vw;
+        margin-right: 18vw;
+    }
 }
 
 thead tr, tbody td {
@@ -100,9 +121,20 @@ thead tr, tbody td {
     text-align:left;
 }
 
-tr:hover {
-    background: rgba(255, 255, 255, 0.135);
+.rTable tbody tr td[data-v-b6cefbc6]:nth-child(1) {
+    width: 2%;
 }
+
+
+.logo{
+    
+    max-width: 10%;
+}
+.content{
+    max-width: 80%;
+    
+}
+
 
 </style>
 

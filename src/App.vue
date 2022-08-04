@@ -9,6 +9,13 @@
 </template>
 
 <style>
+body {
+overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
 button{
   border-radius: 10px;
   font-size: 20px;
