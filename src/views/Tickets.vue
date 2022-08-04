@@ -96,10 +96,10 @@ tr:hover{
     margin: 0%;
 }
 @media only screen and (min-width: 1200px){
-    .content{width:100%;}
-    .rTable tbody tr td:nth-child(1){width:10%;}
-    .rTable tbody tr td:nth-child(2){width:30%;}
-    .rTable tbody tr td:nth-child(3){width:20%;}
+    .content{width:80%;}
+    .rTable tbody tr td:nth-child(1){width:0%;}
+    .rTable tbody tr td:nth-child(2){width:20%;}
+    .rTable tbody tr td:nth-child(3){width:30%;}
     .rTable tbody tr td:nth-child(4){width:10%;}
     .rTable tbody tr td:nth-child(5){width:30%;}
     
@@ -135,7 +135,7 @@ thead tr, tbody td {
 
 
 .logo{
-    max-width: 10%;
+    max-width: 0%;
 }
 .content{
     max-width: 80%;
