@@ -135,12 +135,10 @@ thead tr, tbody td {
 
 
 .logo{
-    
     max-width: 10%;
 }
 .content{
     max-width: 80%;
-    
 }
 
 
