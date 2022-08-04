@@ -79,7 +79,7 @@ img{
         font-size: 1.2rem;
     }
     
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
     .data{
         display: none;
     }
@@ -91,7 +91,7 @@ img{
     }
 }
 tr:hover{
-    background: rgba(0, 0, 0, 0.137);
+    background: rgba(0, 0, 0, 0.246);
     padding: 0%;
     margin: 0%;
 }
@@ -121,12 +121,18 @@ tr:hover{
         margin-right: 18vw;
     }
 }
-
+thead, tbody{
+    border-bottom: 5px solid rgba(0, 0, 0, 0.23);
+}
 thead tr, tbody td {
     text-align: -webkit-left;
     font-size: 1rem;
     max-width: 20px;
-    text-align:left;
+    text-align:center;
+    background: #2b2c334c;
+    border-radius: 5px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.23);
+    
 }
 
 .rTable tbody tr td[data-v-b6cefbc6]:nth-child(1) {
