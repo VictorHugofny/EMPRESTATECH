@@ -10,7 +10,8 @@
 <style scoped>
 
 #nav {
-  border: 1px solid black;
+  border-top: 1px solid rgba(0, 0, 0, 0.983);
+  border-end-start-radius: 25px;
   background-color: #34353E;
   position: sticky;
   top: 0;

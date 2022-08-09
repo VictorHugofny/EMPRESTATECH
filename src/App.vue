@@ -79,7 +79,7 @@ p, a, h1, h2, h3, h4, h5{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 input{
-  box-shadow: 8px 6px 15px 0px rgba(41, 155, 255, 0.22);
+  box-shadow: 8px 12px 15px 0px rgb(0, 0, 0);
   
 }
 </style>
