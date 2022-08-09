@@ -18,21 +18,21 @@
             </thead>
 
             <tbody>
-                <tr>
+                <tr class='linha'>
                     <td class = 'logo'><img src="../assets/eu.jpeg" alt=""></td>
                     <td> Victor Hugo</td>
                     <td>TROCA</td>
                     <td class = 'data'>02/10</td>
                 </tr>
 
-                <tr>
+                <tr class='linha'>
                     <td class = 'logo'><img src="../assets/luva.jpg" alt=""></td>
                     <td> Luva de pedreiro</td>
                     <td>PRIMEIRO</td>
                     <td class = 'data'>01/10</td>
                 </tr>
 
-                <tr>
+                <tr class='linha'>
                     <td class = 'logo'><img src="../assets/casimiro.jpg" alt=""></td>
                     <td>Casimiro Miguel</td>
                     <td>TROCA</td>
@@ -50,7 +50,6 @@ img{
     border-radius: 50px;
     width: 3.1rem;
     height: 3.1rem;
-    margin-right: 1rem;
 }
 *{margin:0; padding: 0; box-sizing: border-box;}
 .dashboard{
@@ -66,7 +65,7 @@ img{
     color: #ccc;
     
 }
-.content{display:flex; margin: auto;}
+.content{display:flex; margin: auto; border-radius: 25px;}
 
 .rTable{width: 100%; text-align: left;}
     .rTable thead{font-weight: bold; color:rgb(210, 210, 210);}
@@ -90,7 +89,7 @@ img{
         display:none;
     }
 }
-tr:hover{
+.linha:hover{
     background: rgba(0, 0, 0, 0.246);
     padding: 0%;
     margin: 0%;
@@ -130,7 +129,6 @@ thead tr, tbody td {
     max-width: 20px;
     text-align:center;
     background: #2b2c334c;
-    border-radius: 5px;
     border-bottom: 5px solid rgba(0, 0, 0, 0.23);
     
 }
@@ -147,6 +145,14 @@ thead tr, tbody td {
     max-width: 80%;
 }
 
+table {
+    margin: 0%;
+    padding: 0%;
+    border:#f9faff00 0px solid;
+    border-spacing: 0px;
+    border-radius: 35px;
+
+}
 
 </style>
 
