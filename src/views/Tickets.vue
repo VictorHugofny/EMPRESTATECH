@@ -102,7 +102,7 @@ img{
     }
 }
 .linha:hover{
-    background: rgba(0, 0, 0, 0.361);
+    background: rgba(0, 0, 0, 0.189);
     box-shadow: 8px 12px 15px 0px rgba(0, 0, 0, 0.69);
     padding: 0%;
     margin: 0%;
